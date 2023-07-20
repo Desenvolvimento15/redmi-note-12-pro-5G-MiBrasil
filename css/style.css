@@ -1,0 +1,145 @@
+.container {
+  max-width: 1440px;
+  background-color: #fff;
+  background-repeat: repeat-y;
+}
+
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
+@import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
+
+@font-face {
+  font-family: "Xiaomi Brand";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2")
+    format("woff2");
+}
+
+body {
+  font-family: "Camphor Pro", sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.p-center {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20px;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+}
+
+.icons-text {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+  font-weight: 400;
+}
+
+.icons-title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Camphor Pro", sans-serif;
+  position: relative;
+}
+
+.txt-preto {
+  color: #000;
+}
+
+.txt-branco {
+  color: #fff !important;
+}
+
+.boxcolor {
+  background-color: #000000;
+}
+
+.boxcolor2 {
+  background-color: #e4f6f9;
+}
+
+/***************************grid*************************************/
+.grid-xiaomi {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5rem;
+}
+
+/***************************************************************/
+
+@media (max-width: 920px) {
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.21rem;
+    font-weight: 800;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    margin-bottom: 0.2rem;
+  }
+
+  .p-center {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+  }
+
+  .icons-text {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    font-weight: 400;
+  }
+
+  .icons-title {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 800;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+  }
+
+  .grid-xiaomi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}
