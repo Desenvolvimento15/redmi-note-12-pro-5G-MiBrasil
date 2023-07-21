@@ -157,8 +157,5 @@ body {
     gap: 1rem;
     flex-wrap: nowrap;
   }
-  .grid-template-row {
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr 3fr;
-  }
+
 }
