@@ -6,7 +6,7 @@
 
 .content-xiaomi {
   margin: auto;
-  max-width: 40rem;
+  max-width: 40vw;
   display: flex;
   flex-direction: column;
 }
@@ -157,5 +157,4 @@ body {
     gap: 1rem;
     flex-wrap: nowrap;
   }
-
 }
