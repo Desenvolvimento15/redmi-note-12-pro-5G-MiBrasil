@@ -4,6 +4,12 @@
   background-repeat: repeat-y;
 }
 
+.content-xiaomi {
+  margin: auto;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
@@ -21,9 +27,8 @@ body {
 }
 
 .title {
-  text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -31,9 +36,8 @@ body {
 }
 
 .subtitle {
-  text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 800;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -73,26 +77,37 @@ body {
 }
 
 .boxcolor {
-  background-color: #000000;
+  background-color: #000001;
 }
 
 .boxcolor2 {
-  background-color: #e4f6f9;
+  background-color: #fff;
 }
 
+.boxcolor3 {
+  background-color: #eaecf1;
+}
 /***************************grid*************************************/
+
 .grid-xiaomi {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   text-align: center;
-  gap: 5rem;
+  gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 /***************************************************************/
 
 @media (max-width: 920px) {
+  .content-xiaomi {
+    margin: auto;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+  }
   .title {
-    text-transform: uppercase;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 400;
@@ -103,9 +118,8 @@ body {
   }
 
   .subtitle {
-    text-transform: uppercase;
     text-align: center;
-    font-size: 1.21rem;
+    font-size: 2rem;
     font-weight: 800;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -113,7 +127,7 @@ body {
   }
 
   .p-center {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     font-family: "Camphor Pro", sans-serif;
     position: relative;
@@ -138,8 +152,13 @@ body {
   .grid-xiaomi {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     gap: 1rem;
+    flex-wrap: nowrap;
+  }
+  .grid-template-row {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 3fr;
   }
 }
