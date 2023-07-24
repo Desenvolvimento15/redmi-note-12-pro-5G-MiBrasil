@@ -33,7 +33,6 @@ body {
   font-weight: 400;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  margin-bottom: 5rem;
 }
 
 .subtitle {
@@ -54,12 +53,11 @@ body {
 
 .icons-text {
   font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.2;
+  font-weight: 400;
+  line-height: 1.2;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-
 }
 
 .icons-title {
