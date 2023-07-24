@@ -46,23 +46,24 @@ body {
 }
 
 .p-center {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-align: center;
-  padding: 20px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
 }
 
 .icons-text {
   font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
   text-align: center;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
-  font-weight: 400;
+
 }
 
 .icons-title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   font-weight: 800;
   font-family: "Camphor Pro", sans-serif;
